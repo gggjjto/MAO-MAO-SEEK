@@ -2,7 +2,8 @@ import requests
 from flask import session
 
 import config
-from common.score import get_user_score
+from common.AssessCommon import assess
+from common.scoreCommon import get_user_score
 from service.textService import GitHubService
 
 GITHUB_USER_API_URL = "https://api.github.com/user"
@@ -38,7 +39,7 @@ def get_user_info(username, token):
 
     # 如果请求失败，返回错误信息和状态码
     if response.status_code != 200:
-        return response.json(), response.status_code
+        return "用户名错误!", response.status_code
 
     user_info = response.json()
     user_data = {
@@ -59,7 +60,8 @@ def get_user_info(username, token):
     g = GitHubService(token)
     user_data['score'] = get_user_score(username)
     user_data['country'], reliability = g.get_location(username)
-    user_data['reliability'] = reliability * 0.75
+    user_data['reliability'] = reliability
+    user_data['bio'] = assess(username, token)
 
     # 成功时返回用户数据和状态码 200
     return user_data, 200

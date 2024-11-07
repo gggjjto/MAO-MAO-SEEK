@@ -1,0 +1,160 @@
+login,name,location_original,created_at,followers,repositories,location_country
+torvalds,Linus Torvalds,"Portland, OR",,219610,31,美国
+karpathy,Andrej,Stanford,,91536,59,美国
+bradtraversy,Brad Traversy,Massachusetts,,72334,290,美国
+JakeWharton,Jake Wharton,"Pittsburgh, PA, USA",,67641,206,美国
+getify,Kyle Simpson,"Austin, TX",,43936,71,美国
+addyosmani,Addy Osmani,"Mountain View, California",,43081,374,美国
+lucidrains,Phil Wang,San Francisco,,41421,315,美国
+kentcdodds,Kent C. Dodds,"Salt Lake City, Utah, USA",,33315,790,美国
+ry,Ryan Dahl,New York City,,31863,69,美国
+dmalan,David J. Malan,"Cambridge, MA, USA",,30623,31,美国
+WebDevSimplified,,Nebraska,,30334,207,美国
+benawad,Ben Awad,"Austin, TX",,29014,264,美国
+buckyroberts,Bucky Roberts,"New York, NY",,27286,61,美国
+hadley,Hadley Wickham,"Houston, TX",,25840,357,美国
+rasbt,Sebastian Raschka,"Madison, WI",,24766,159,美国
+gamemann,Christian Deacon,"Mullica Hill, New Jersey, US",,24663,161,美国
+mojombo,Tom Preston-Werner,San Francisco,,24054,88,美国
+jwasham,John Washam,United States,,23676,30,美国
+gvanrossum,Guido van Rossum,San Francisco Bay Area,,23293,54,美国
+kelseyhightower,Kelsey Hightower,"Portland, OR",,22346,241,美国
+douglascrockford,Douglas Crockford,Anaheim,,21739,18,美国
+tpope,Tim Pope,"Brooklyn, NY",,21657,90,美国
+geerlingguy,Jeff Geerling,"St. Louis, MO",,21284,297,美国
+donnemartin,Donne Martin,"Washington, D.C.",,21093,29,美国
+MrXyfir,xyfir,California,,20579,19,美国
+shiffman,Daniel Shiffman,"New York, NY",,19266,255,美国
+Rich-Harris,Rich Harris,NYC,,19234,403,美国
+jeresig,John Resig,"Hudson Valley, NY",,18744,119,美国
+loiane,Loiane Groner,"Florida, US",,18420,358,美国
+mattt,Mattt,"Portland, OR",,18023,103,美国
+cumsoft,cumsoft,"New York, NY",,17759,8,美国
+jakevdp,Jake Vanderplas,Oakland CA,,17753,286,美国
+vczh,,"Seattle, WA, USA",,17513,19,美国
+codingforentrepreneurs,Coding For Entrepreneurs,"Boise, Idaho",,16381,206,美国
+octocat,The Octocat,San Francisco,,15563,203,美国
+chiphuyen,Chip Huyen,San Francisco,,15331,36,美国
+spf13,Steve Francia,NYC,,15318,113,美国
+isaacs,isaacs,Oakland CA,,15169,507,美国
+rauchg,Guillermo Rauch,SF,,14939,181,美国
+wesm,Wes McKinney,"Nashville, TN",,14758,147,美国
+goodfeli,Ian Goodfellow,Mountain View,,14310,24,美国
+ahejlsberg,Anders Hejlsberg,"Redmond, WA, USA",,14302,7,美国
+acdlite,Andrew Clark,New York,,14235,87,美国
+unclebob,Robert C. Martin,"Gurnee, IL",,13729,76,美国
+cassidoo,Cassidy Williams,"Chicago, IL",,13385,188,美国
+jashkenas,Jeremy Ashkenas,Berkeley,,13244,26,美国
+leerob,Lee Robinson,"Des Moines, IA",,12689,89,美国
+CoreyMSchafer,Corey Schafer,United States,,12660,5,美国
+BYVoid,Carbo Kuo,New York,,12585,48,美国
+evanw,Evan Wallace,San Francisco,,12526,129,美国
+btholt,Brian Holt,MSP 🔜 SNA 🔜 SLC 🔜 SMF,,12488,167,美国
+soumith,Soumith Chintala,"New York, USA",,12200,212,美国
+bradfitz,Brad Fitzpatrick,Seattle,,12109,166,美国
+agentzh,Yichun Zhang,San Francisco Bay Area,,11673,91,美国
+shanselman,Scott Hanselman,"Portland, OR",,11315,240,美国
+bvaughn,Brian Vaughn,"Brooklyn, NY",,11179,183,美国
+samyk,samy kamkar,los angeles,,11020,185,美国
+zenorocha,Zeno Rocha,"San Francisco, California",,10974,188,美国
+bot50,CS50 Bot,"Cambridge, Massachusetts, USA",,10958,31,美国
+chriscoyier,Chris Coyier,"Bend, Oregon",,10853,78,美国
+amueller,Andreas Mueller,Los Gatos,,10731,217,美国
+gitdagray,Dave Gray,"Lawrence, Kansas",,10651,176,美国
+chenshuo,Shuo Chen,California,,10623,56,美国
+mnielsen,Michael Nielsen,"San Francisco, California",,10616,37,美国
+romannurik,Roman Nurik,"New York, NY",,10554,65,美国
+ChrisTitusTech,Chris Titus,"Dallas, TX",,10300,58,美国
+lattner,Chris Lattner,"Bay Area, California, USA",,10288,17,美国
+jhaddix,Jason Haddix,United States,,10246,72,美国
+wycats,Yehuda Katz,"Portland, OR",,10228,397,美国
+romainguy,Romain Guy,California,,10095,21,美国
+alex,Alex Gaynor,Washington D.C.,,9960,497,美国
+Sentdex,Harrison,Texas,,9932,47,美国
+mgechev,Minko Gechev,California,,9888,404,美国
+AllenDowney,Allen Downey,"Needham, MA, USA",,9814,369,美国
+jaredpalmer,Jared Palmer,"New York, NY",,9459,216,美国
+tenderlove,Aaron Patterson,Seattle,,9448,413,美国
+colah,Christopher Olah,San Francisco,,9373,67,美国
+norvig,Peter Norvig,"Palo Alto, CA, USA",,9284,6,美国
+CleverProgrammer,Rafeh Qazi,Los Angeles,,8889,191,美国
+sebmarkbage,Sebastian Markbåge,New York City,,8822,83,美国
+igrigorik,Ilya Grigorik,"Portland, OR",,8766,95,美国
+ardalis,Steve Smith,Ohio,,8712,294,美国
+felangel,Felix Angelov,Chicago,,8683,147,美国
+pjhyett,PJ Hyett,San Francisco,,8308,8,美国
+justmarkham,Kevin Markham,"Asheville, NC, USA",,8251,44,美国
+jamesmontemagno,James Montemagno,Pacific Northwest,,8075,405,美国
+dtolnay,David Tolnay,"Redwood City, California",,8021,123,美国
+springframeworkguru,John Thompson,"Tampa Bay, Florida",,7859,216,美国
+ryanb,Ryan Bates,Southern Oregon,,7717,80,美国
+Yangqing,Yangqing Jia,Berkeley,,7699,55,美国
+Germey,Germey,United States of America,,7687,233,美国
+andrewrk,Andrew Kelley,"Portland, Oregon",,7603,269,美国
+mxcl,Max Howell,"Apex, NC, USA",,7365,64,美国
+dabit3,Nader Dabit,"Madison, Mississippi",,7257,458,美国
+rsms,Rasmus,San Francisco,,7224,182,美国
+mjackson,Michael Jackson,"Carlsbad, California",,7089,205,美国
+jeffheaton,Jeff Heaton,"St. Louis, MO, USA",,6894,61,美国
+steveklabnik,Steve Klabnik,"Austin, TX",,6806,876,美国
+junyanz,Jun-Yan Zhu,"Pittsburgh, PA",,6744,64,美国
+nat,Nat Friedman,San Francisco,,6741,20,美国
+swyxio,swyx.io,San Francisco,,6720,722,美国
+ethanflower1903,Ethan Flower-01100101 01110100 01101000 01100001 01101110,san francisco,,6659,323,美国
+cheshire137,Sarah Vessels,"Nashville, Tennessee",,6652,144,美国
+notwaldorf,Monica Dinculescu,Sun Funcisco ☀️,,6571,90,美国
+holman,Zach Holman,San Francisco,,6382,68,美国
+ahmadawais,Ahmad Awais ⌘,"San Francisco Bay Area, CA, US.",,6242,777,美国
+giswqs,Qiusheng Wu,"Knoxville, TN",,6191,317,美国
+mstraughan86,Michael Straughan,"Las Vegas, Nevada",,6054,28,美国
+jxnblk,Brent Jackson,New York City,,6024,289,美国
+richhickey,Rich Hickey,NY,,5965,13,美国
+jbogard,Jimmy Bogard,"Austin, TX",,5945,141,美国
+chenglou,Cheng Lou,California,,5867,208,美国
+hussien89aa,Hussein Alrubaye,New York,,5822,65,美国
+stephencelis,Stephen Celis,California,,5782,154,美国
+williamfiset,William Fiset,"Mountain View, California",,5712,20,美国
+markerikson,Mark Erikson,"OH, USA",,5710,97,美国
+poteto,lauren,nyc,,5700,96,美国
+PySimpleGUI,PySimpleGUI,USA,,5642,17,美国
+jherr,Jack Herrington,"Happy Valley, OR",,5592,406,美国
+moxie0,Moxie Marlinspike,San Francisco,,5586,22,美国
+eliben,Eli Bendersky,California,,5511,78,美国
+fogleman,Michael Fogleman,"Cary, NC",,5477,144,美国
+afollestad,Aidan Follestad,"St. Paul, Minnesota",,5426,34,美国
+U7P4L-IN,U7P4L x C0D3R,United States,,5363,75,美国
+mahseema,Mahsima Dastan,San Francisco,,5361,15,美国
+lidangzzz,立党 Lidang,Texas,,5333,37,美国
+KevinHock,,I love San Francisco,,5261,49,美国
+steven-tey,Steven Tey,SF,,5254,105,美国
+kenwheeler,Ken Wheeler,Jersey Shore,,5226,123,美国
+leebyron,Lee Byron,San Francisco,,5211,120,美国
+dabeaz,David Beazley,Chicago,,5182,35,美国
+creationix,Tim Caswell,"Mountainburg, AR, USA",,5139,534,美国
+calebporzio,Caleb Porzio,Buffalo NY,,5106,97,美国
+charliermarsh,Charlie Marsh,"Brooklyn, NY",,5075,65,美国
+una,Una Kravets,"New York, NY",,5002,202,美国
+ashleygwilliams,ashley williams,ATX,,4979,425,美国
+aphyr,Kyle Kingsbury,USA,,4975,125,美国
+DanWahlin,Dan Wahlin,Arizona,,4959,147,美国
+Nutlope,Hassan El Mghari,"New York City, NY",,4958,77,美国
+BretFisher,Bret Fisher,"Virginia Beach, Virginia, USA",,4943,107,美国
+mikeal,Mikeal Rogers,San Francisco,,4922,534,美国
+JeffreyZhao,Jeffrey Zhao,United States,,4892,37,美国
+timbl,Tim Berners-Lee,Boston MA USA,,4850,34,美国
+anvaka,Andrei Kashcha,Seattle ,,4798,320,美国
+asweigart,Al Sweigart,USA,,4790,254,美国
+andrewjmead,Andrew Mead,Philadelphia,,4782,26,美国
+robbyrussell,Robby Russell,"Portland, Oregon USA",,4717,71,美国
+joelgrus,Joel Grus,"Boerne, TX",,4707,109,美国
+rs,Olivier Poitrey,"Silicon Valley, California, USA",,4694,122,美国
+migueldeicaza,Miguel de Icaza,"Boston, MA.",,4692,220,美国
+felixrieseberg,Felix Rieseberg,San Francisco,,4687,269,美国
+Hendrixer,Scott Moss,Bay Area,,4679,182,美国
+Gizachew29,Gizachew,"Summerlin, NV,  USA",,4665,60,美国
+minimaxir,Max Woolf,San Francisco,,4650,144,美国
+EvanBacon,Evan Bacon,Austin TX,,4599,327,美国
+JordanSchuetz,Jordan Schuetz,San Francisco CA,,4585,29,美国
+coryhouse,Cory House,Kansas City,,4554,239,美国
+kdn251,Kevin Naughton Jr.,"New York, New York",,4548,23,美国
+zkat,Kat Marchán,stolen Chochenyo Ohlone land,,4540,223,美国

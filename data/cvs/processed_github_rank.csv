@@ -1,0 +1,697 @@
+login,name,location,created_at,followers,repositories
+torvalds,Linus Torvalds,美国,,219610,31
+yyx990803,Evan You,新加坡,,101840,230
+gustavoguanabara,Gustavo Guanabara,巴西,,92040,7
+karpathy,Andrej,美国,,91536,59
+peng-zhihui,稚晖,中国,,80762,61
+ruanyf,Ruan YiFeng,中国,,79335,75
+bradtraversy,Brad Traversy,美国,,72334,290
+JakeWharton,Jake Wharton,美国,,67641,206
+rafaballerini,Rafaella Ballerini,巴西,,54077,64
+tj,TJ Holowaychuk,英国,,50867,326
+getify,Kyle Simpson,美国,,43936,71
+geohot,George Hotz,加拿大,,43553,96
+addyosmani,Addy Osmani,美国,,43081,374
+lucidrains,Phil Wang,美国,,41421,315
+michaelliao,Crypto Michael,中国,,37262,100
+llSourcell,Siraj Raval,加拿大,,36827,468
+ThePrimeagen,ThePrimeagen,越南,,35361,216
+kamranahmedse,Kamran Ahmed,英国,,34710,114
+filipedeschamps,Filipe Deschamps,巴西,,33625,27
+wesbos,Wes Bos,加拿大,,33582,382
+kentcdodds,Kent C. Dodds,美国,,33315,790
+hiteshchoudhary,Hitesh Choudhary,印度,,33290,101
+IDouble,Alp ₿📈🚀🌕,瑞士,,33185,61
+antfu,Anthony Fu,这不是一个国家。,,32988,493
+taylorotwell,Taylor Otwell,阿根廷,,32631,54
+ry,Ryan Dahl,美国,,31863,69
+diego3g,Diego Fernandes,巴西,,31547,142
+iamshaunjp,Shaun (Net Ninja),英国,,30991,131
+krishnaik06,Krish C Naik,印度,,30944,331
+kunal-kushwaha,Kunal Kushwaha,英国,,30854,56
+dmalan,David J. Malan,美国,,30623,31
+WebDevSimplified,,美国,,30334,207
+kennethreitz,Kenneth Reitz,这不是一个国家,,29134,139
+benawad,Ben Awad,美国,,29014,264
+midudev,Miguel Ángel Durán,西班牙,,28322,199
+adrianhajdin,Adrian Hajdin - JS Mastery,克罗地亚,,28286,149
+buckyroberts,Bucky Roberts,美国,,27286,61
+tiangolo,Sebastián Ramírez,德国,,26478,88
+hadley,Hadley Wickham,美国,,25840,357
+mouredev,Brais Moure,西班牙,,25384,47
+jonasschmedtmann,Jonas Schmedtmann,葡萄牙,,25296,8
+rasbt,Sebastian Raschka,美国,,24766,159
+gamemann,Christian Deacon,美国,,24663,161
+daimajia,代码家,中国,,24631,90
+mojombo,Tom Preston-Werner,美国,,24054,88
+sdras,Sarah Drasner,这不是一个国家,,23994,114
+jwasham,John Washam,美国,,23676,30
+gvanrossum,Guido van Rossum,美国,,23293,54
+mdo,Mark Otto,加拿大,,23276,34
+mbostock,Mike Bostock,加拿大,,23021,104
+kelseyhightower,Kelsey Hightower,美国,,22346,241
+JohnMwendwa,John Mwendwa,肯尼亚,,22062,113
+techwithtim,Tim Ruscica,阿联酋,,21995,182
+keijiro,Keijiro Takahashi,日本,,21861,835
+mitsuhiko,Armin Ronacher,奥地利,,21761,315
+douglascrockford,Douglas Crockford,美国,,21739,18
+codediodeio,Jeff Delaney,阿塞拜疆,,21678,85
+tpope,Tim Pope,美国,,21657,90
+antirez,Salvatore Sanfilippo,意大利,,21637,88
+programthink,编程随想,中国,,21390,5
+geerlingguy,Jeff Geerling,美国,,21284,297
+mli,Mu Li,加拿大,,21279,43
+JacksonTian,Jackson Tian,中国,,21203,285
+donnemartin,Donne Martin,美国,,21093,29
+cloudwu,云风,中国,,20977,135
+MrXyfir,xyfir,美国,,20579,19
+SebLague,Sebastian Lague,丹麦,,20279,89
+developedbyed,Simo Edwin,英国,,20130,85
+phodal,Fengda Huang,中国,,20066,495
+john-smilga,John Smilga,美国（佛罗里达州）,,19938,261
+xiaolai,xiaolai,中国,,19268,56
+shiffman,Daniel Shiffman,美国,,19266,255
+Rich-Harris,Rich Harris,美国,,19234,403
+elyxdev,Elyx,哥伦比亚,,19071,14
+brunosimon,Bruno Simon,法国,,18771,88
+jeresig,John Resig,美国,,18744,119
+angelabauer,Angela Yu,英国,,18661,975
+chrisbanes,Chris Banes,英国,,18608,51
+loiane,Loiane Groner,美国,,18420,358
+metatimeofficial,Metatime,土耳其,,18212,2
+BEPb,Andrej Marinchenko,白俄罗斯,,18075,43
+mattt,Mattt,美国,,18023,103
+cumsoft,cumsoft,美国,,17759,8
+jakevdp,Jake Vanderplas,美国,,17753,286
+hkirat,Kirat,地球,,17686,129
+vczh,,美国,,17513,19
+liyupi,程序员鱼皮,中国,,17417,83
+Asabeneh,Asabeneh,芬兰,,17352,169
+halfrost,halfrost,中国,,17044,81
+Trinea,Trinea,中国,,17004,24
+justjavac,迷渡,中国,,16931,381
+trekhleb,Oleksii Trekhleb,荷兰,,16849,22
+kenjinote,kenji,日本,,16767,604
+JeffreyWay,Jeffrey Way,美国（佛罗里达州）,,16609,165
+codingforentrepreneurs,Coding For Entrepreneurs,美国,,16381,206
+jlord,Jessica Lord,英国,,16355,198
+peter-kimanzi,Peter Kimanzi,肯尼亚,,16284,116
+iam-veeramalla,Abhishek Veeramalla,印度,,16279,63
+maykbrito,Mayk Brito,巴西,,16032,173
+sandhikagalih,Sandhika Galih,印度尼西亚,,15902,94
+stormzhang,stormzhang,中国,,15879,5
+lifesinger,lifesinger,中国,,15869,3
+LeaVerou,Lea Verou,摩洛哥,,15665,136
+jackfrued,骆昊,中国,,15627,125
+Ovilia,Wenli Zhang,中国,,15567,79
+octocat,The Octocat,美国,,15563,203
+onevcat,Wei Wang,日本 / 中国,,15448,216
+chiphuyen,Chip Huyen,美国,,15331,36
+spf13,Steve Francia,美国,,15318,113
+johnpapa,John Papa,美国（佛罗里达州）,,15315,198
+ggerganov,Georgi Gerganov,保加利亚,,15249,75
+josevalim,José Valim,波兰,,15213,64
+isaacs,isaacs,美国,,15169,507
+astaxie,astaxie,中国,,14997,81
+rauchg,Guillermo Rauch,美国,,14939,181
+wesm,Wes McKinney,美国,,14758,147
+RubyLouvre,司徒正美,中国,,14737,131
+Kwynto,Constantine Zavezeon,俄罗斯,,14708,19
+ageron,Aurélien Geron,新西兰,,14706,86
+gopinav,Vishwas,印度,,14683,70
+PremChapagain,Prem Chapagain,尼泊尔,,14636,1
+CyC2018,,中国,,14577,7
+feross,Feross Aboukhadijeh,加拿大,,14405,221
+sorrycc,chencheng (云谦),中国,,14390,253
+in28minutes,,印度,,14373,104
+goodfeli,Ian Goodfellow,美国,,14310,24
+ahejlsberg,Anders Hejlsberg,美国,,14302,7
+mitchellh,Mitchell Hashimoto,加拿大,,14236,128
+acdlite,Andrew Clark,美国,,14235,87
+florinpop17,Florin Pop,罗马尼亚,,14233,101
+DIYgod,DIYgod,新加坡,,14200,95
+schacon,Scott Chacon,德国,,13757,241
+unclebob,Robert C. Martin,美国,,13729,76
+bailicangdu,cangdu,中国,,13694,23
+cassidoo,Cassidy Williams,美国,,13385,188
+ForrestKnight,Forrest Knight,美国（弗吉尼亚州）,,13291,31
+fengdu78,Huang Haiguang,中国,,13256,17
+jashkenas,Jeremy Ashkenas,美国,,13244,26
+fabpot,Fabien Potencier,法国,,13244,90
+brianyu28,Brian Yu,摩洛哥,,13204,47
+Klerith,Fernando Herrera,哥斯达黎加,,13203,525
+breakwa11,破娃酱,中国,,13201,8
+jessfraz,Jess Frazelle,这不是一个国家,,13196,196
+anuraghazra,Anurag Hazra,印度,,13130,139
+PanJiaChen,花裤衩,中国,,13081,73
+draveness,Draven,中国,,13012,90
+hongyangAndroid,张鸿洋,中国,,12988,102
+eust-w,longtao,地球,,12886,112
+davidfowl,David Fowler,澳大利亚,,12808,312
+OracleBrain,Aashis Jha,尼泊尔,,12806,37
+mosh-hamedani,Mosh Hamedani,澳大利亚,,12786,31
+angusshire,Angus H.,加拿大,,12748,19
+abuanwar072,Abu Anwar,孟加拉国,,12735,79
+leerob,Lee Robinson,美国,,12689,89
+CoreyMSchafer,Corey Schafer,美国,,12660,5
+haoel,Hao Chen,中国,,12629,29
+developit,Jason Miller,加拿大,,12594,404
+BYVoid,Carbo Kuo,美国,,12585,48
+evanw,Evan Wallace,美国,,12526,129
+miguelgrinberg,Miguel Grinberg,爱尔兰,,12493,203
+btholt,Brian Holt,美国,,12488,167
+mattn,mattn,日本,,12445,2096
+hakimel,Hakim El Hattab,瑞典,,12433,32
+matheusbattisti,Matheus Battisti - Hora de Codar,巴西,,12334,150
+egoist,EGOIST,中国,,12315,847
+soumith,Soumith Chintala,美国,,12200,212
+rakyll,Jaana Dogan,加拿大,,12189,232
+Charles-Chrismann,Charles Chrismann,法国,,12146,53
+bradfitz,Brad Fitzpatrick,美国,,12109,166
+tomnomnom,Tom Hudson,英国,,12101,101
+acenelio,Nelio Alves,巴西,,12087,290
+adamwathan,Adam Wathan,加拿大,,11897,187
+YunaiV,芋道源码,中国,,11718,86
+nicknochnack,Nicholas Renotte,澳大利亚,,11706,194
+jonhoo,Jon Gjengset,挪威,,11696,266
+agentzh,Yichun Zhang,美国,,11673,91
+tannerlinsley,Tanner Linsley,美国（犹他州）,,11662,159
+philipplackner,Philipp Lackner,德国,,11519,304
+bedimcode,Marlon,秘鲁,,11451,140
+dsacademybr,Data Science Academy,巴西,,11331,4
+iampawan,Pawan Kumar,印度,,11329,248
+skydoves,Jaewoong Eum,韩国,,11321,101
+shanselman,Scott Hanselman,美国,,11315,240
+mqyqingfeng,冴羽,中国,,11310,33
+fouber,张云龙,中国,,11272,182
+yangshun,Yangshun Tay,新加坡,,11244,138
+TheCherno,Yan Chernikov,澳大利亚,,11240,41
+muan,Mu-An Chiou,中国,,11232,180
+bvaughn,Brian Vaughn,美国,,11179,183
+samyk,samy kamkar,美国,,11020,185
+necolas,Nicolas Gallagher,加拿大,,11015,82
+QianMo,浅墨（毛星云）,中国,,11012,37
+zenorocha,Zeno Rocha,美国,,10974,188
+bot50,CS50 Bot,美国,,10958,31
+jrohitofficial,Rohit Jha,尼泊尔,,10955,58
+chriscoyier,Chris Coyier,美国,,10853,78
+craftzdog,Takuya Matsuyama,日本,,10823,165
+htr-tech,Tahmid Rayat,孟加拉国,,10769,35
+amueller,Andreas Mueller,美国,,10731,217
+gitdagray,Dave Gray,美国,,10651,176
+engindemirog,Engin Demirog,土耳其,,10628,56
+chenshuo,Shuo Chen,美国,,10623,56
+mnielsen,Michael Nielsen,美国,,10616,37
+Elfocrash,Nick Chapsas,英国,,10602,51
+miloyip,Milo Yip,中国,,10589,32
+romannurik,Roman Nurik,美国,,10554,65
+eugenp,Eugen,罗马尼亚,,10549,14
+t3dotgg,Theo Browne,加拿大,,10527,125
+sofish,小鱼,中国,,10485,42
+professorguanabara,Gustavo Guanabara,巴西,,10458,6
+Snailclimb,Guide,中国,,10440,24
+akitaonrails,Fabio Akita,巴西,,10421,131
+nzakas,Nicholas C. Zakas,加拿大,,10414,78
+ghost,Deleted user,这不是一个国家,,10380,8
+ChrisTitusTech,Chris Titus,美国,,10300,58
+lattner,Chris Lattner,美国,,10288,17
+aneagoie,Andrei Neagoie,加拿大,,10281,157
+jhaddix,Jason Haddix,美国,,10246,72
+danielmiessler,Daniel Miessler,美国（旧金山湾区）,,10239,73
+BurntSushi,Andrew Gallant,摩洛哥,,10230,190
+wycats,Yehuda Katz,美国,,10228,397
+benbalter,Ben Balter,美国（华盛顿特区）,,10228,258
+rsc,Russ Cox,摩洛哥,,10120,157
+ErickWendel,Erick Wendel,巴西,,10120,317
+romainguy,Romain Guy,美国,,10095,21
+george0st,jist,捷克,,10079,24
+sophiebits,Sophie Alpert,加拿大,,10057,185
+alex,Alex Gaynor,美国,,9960,497
+Sentdex,Harrison,美国,,9932,47
+munificent,Bob Nystrom,澳大利亚,,9931,53
+easychen,Easy,中国,,9907,225
+shiftkey,Brendan Forster,加拿大,,9898,199
+mgechev,Minko Gechev,美国,,9888,404
+matz,"Yukihiro ""Matz"" Matsumoto",日本,,9833,15
+AllenDowney,Allen Downey,美国,,9814,369
+CoderMJLee,M了个J,中国,,9805,16
+mustafacagri,Mustafa Çağrı Güven,土耳其,,9790,41
+mcollina,Matteo Collina,意大利,,9756,737
+topjohnwu,John Wu,美国和台湾,,9744,55
+toddmotto,Todd Motto,英国,,9685,103
+PatrickAlphaC,Patrick Collins,美国（波士顿）,,9674,291
+ustbhuangyi,HuangYi,中国,,9631,79
+wizardforcel,布客飞龙,中国,,9612,772
+noob-hackers,N17R0,印度,,9607,24
+knadh,Kailash Nadh,印度,,9581,83
+ryanflorence,Ryan Florence,美国（犹他州）,,9567,297
+yihui,Yihui Xie,美国（内布拉斯加州）,,9473,141
+dennybritz,Denny Britz,日本,,9471,68
+jaredpalmer,Jared Palmer,美国,,9459,216
+tenderlove,Aaron Patterson,美国,,9448,413
+joshlong,Josh Long,加拿大,,9437,652
+Jack-Cherish,Jack Cui,中国,,9426,18
+frontend-joe,Joe,英国,,9425,95
+haileys,Hailey Somerville,澳大利亚,,9391,392
+colah,Christopher Olah,美国,,9373,67
+wasabeef,Daichi Furiya,日本,,9370,50
+arthurspk,Arthur Coutinho,巴西,,9300,161
+wintercn,Shaofei Cheng,中国,,9287,54
+norvig,Peter Norvig,美国,,9284,6
+ai,Andrey Sitnik,西班牙,,9161,132
+abhishekkrthakur,abhishek thakur,这不是一个国家,,9153,94
+simplesteph,Stephane Maarek,葡萄牙,,9149,73
+sokra,Tobias Koppers,德国,,9104,138
+shahradelahi,Shahrad Elahi,地球,,9096,52
+ChristianLempa,Christian Lempa,德国,,9094,12
+i5ting,狼叔,中国,,9081,951
+dyc87112,程序猿DD,中国,,9079,62
+521xueweihan,削微寒,中国,,9006,150
+teteusAraujo,Mateus Araújo,巴西,,8999,23
+macrozheng,macro,中国,,8952,19
+f,Fatih Kadir Akın,土耳其,,8908,258
+s0md3v,Somdev Sangwan,印度,,8906,55
+CleverProgrammer,Rafeh Qazi,美国,,8889,191
+elidianaandrade,Eli,巴西,,8863,9
+NeuralNine,NeuralNine,奥地利,,8829,15
+sebmarkbage,Sebastian Markbåge,美国,,8822,83
+carpedm20,Taehoon Kim,韩国,,8817,210
+alyssaxuu,Alyssa X,英国,,8780,15
+ityouknow,纯洁的微笑,中国,,8779,30
+igrigorik,Ilya Grigorik,美国,,8766,95
+jamiebuilds,Jamie Kyle,这不是一个国家。,,8746,715
+MisterBooo,吴师兄学算法,中国,,8745,88
+ardalis,Steve Smith,美国,,8712,294
+samarjitsahoo,Samarjit Sahoo,印度,,8705,13
+fat,fat,这不是一个国家,,8703,68
+lepture,Hsiaoming Yang,日本,,8701,185
+felangel,Felix Angelov,美国,,8683,147
+audreyt,唐鳳,中国,,8677,390
+rwieruch,Robin Wieruch,德国,,8623,212
+ChenYilong,ChenYilong,新西兰,,8564,37
+Fndroid,Fndroid,中国,,8552,64
+H-K-R,Humayra Khanom Rime,这不是一个国家,,8498,56
+OneLoneCoder,Javidx9,这不是一个国家。给出的链接是一个YouTube频道的网址，与地名或国家无关。,,8487,13
+fatih,Fatih Arslan,土耳其,,8476,65
+lexfridman,Lex Fridman,摩洛哥,,8462,3
+nwaliaez,Neeraj Walia,印度,,8449,18
+rexim,Alexey Kutepov,俄罗斯,,8416,99
+lucasmontano,Lucas Montano,荷兰,,8401,38
+vjanz,Valon Januzaj,科索沃,,8380,16
+evilsocket,Simone Margaritelli,意大利,,8378,176
+alineai18,Aline Angela Ibers,巴西,,8355,4
+twostraws,Paul Hudson,英国,,8328,72
+eddiejaoude,Eddie Jaoude,英国,,8328,115
+pjhyett,PJ Hyett,美国,,8308,8
+liaohuqiu,Huqiu Liao,中国,,8308,125
+AbdeenM,Abdeen Mohamed,塞浦路斯,,8290,8
+justmarkham,Kevin Markham,美国,,8251,44
+chokcoco,Coco,中国,,8246,67
+ahmetb,Ahmet Alp Balkan,澳大利亚,,8215,225
+koush,Koushik Dutta,澳大利亚,,8212,367
+daneden,Daniel Eden,英国,,8169,106
+fengmk2,fengmk2,中国,,8120,243
+jamesmontemagno,James Montemagno,美国,,8075,405
+mercyblitz,Mercy Ma,中国,,8065,56
+cusspvz,José Moreira,葡萄牙,,8063,182
+wcandillon,William Candillon,瑞士,,8056,179
+brendangregg,Brendan Gregg,澳大利亚,,8024,46
+dtolnay,David Tolnay,美国,,8021,123
+cyanharlow,Diana Smith,加拿大,,8019,16
+AntonioErdeljac,Antonio Erdeljac,克罗地亚,,7996,106
+drakeet,Drakeet,中国,,7969,25
+dataprofessor,Chanin Nantasenamat,泰国,,7967,256
+rengwuxian,Kai Zhu,中国,,7959,65
+amitshekhariitbhu,AMIT SHEKHAR,印度,,7953,104
+jaywcjlove,小弟调调,中国,,7928,209
+vinta,Vinta Chen,中国,,7909,23
+springframeworkguru,John Thompson,美国,,7859,216
+DeborahK,Deborah Kurata,加拿大,,7816,88
+FiloSottile,Filippo Valsorda,意大利,,7790,121
+cami-la,Camila Cavalcante,巴西,,7734,170
+ryanb,Ryan Bates,美国,,7717,80
+kamilmysliwiec,Kamil Mysliwiec,波兰,,7702,61
+remy,Remy Sharp,英国,,7700,361
+Yangqing,Yangqing Jia,美国,,7699,55
+Germey,Germey,美国,,7687,233
+CarGuo,Shuyu Guo,中国,,7632,57
+andrewrk,Andrew Kelley,美国,,7603,269
+felipefialho,Felipe Fialho,巴西,,7595,41
+liuyubobobo,Yubo Liu,美国/中国,,7568,35
+PKUFlyingPig,Yinmin Zhong,中国,,7424,87
+aplus-developer,Aplus Developer,互联网没有特定的国家，它是一个全球性的网络,,7421,7
+zcbenz,Cheng,日本,,7408,53
+youngyangyang04,程序员Carl,中国,,7408,48
+maxschwarzmueller,Maximilian Schwarzmüller,德国,,7408,12
+nunomaduro,Nuno Maduro,葡萄牙,,7381,269
+shradha-khapra,Shradha Khapra,印度,,7366,20
+mxcl,Max Howell,美国,,7365,64
+singwhatiwanna,singwhatiwanna,中国,,7344,27
+UberGuidoZ,UberGuidoZ,这不是一个国家,,7342,86
+davidbombal,David Bombal,英国,,7340,18
+sebastianbergmann,Sebastian Bergmann,德国,,7322,81
+jtleek,Jeff L.,澳大利亚,,7303,173
+satya-nutella,,这不是一个国家,,7283,109
+LaravelDaily,Laravel Daily,英国,,7282,362
+ip681,Ivo Petkov,保加利亚,,7271,17
+luizomf,Luiz Otávio,巴西,,7270,99
+skyzh,Alex Chi Z.,中国,,7257,237
+dabit3,Nader Dabit,美国,,7257,458
+willianjusten,Willian Justen ,这不是一个国家。 若要提供准确的回答，请告知具体地名。,,7254,118
+JohnSundell,John Sundell,波兰,,7247,68
+rsms,Rasmus,美国,,7224,182
+nihui,,中国,,7193,185
+Shehab-Hegab,Shehab-Hegab ,埃及,,7192,129
+tangqiaoboy,Tang Qiao,中国,,7177,44
+Huxpro,Xuan Huang (黄玄),这不是一个国家,,7125,89
+ljharb,Jordan Harband,加拿大,,7117,496
+overtrue,安正超,中国,,7111,110
+ashishpatel26,Ashish Patel,印度,,7104,1943
+Jinjiang,Jinjiang,新加坡,,7096,82
+mjackson,Michael Jackson,美国,,7089,205
+afc163,afc163,中国,,7064,277
+rougier,Nicolas P. Rougier,法国,,7021,318
+jskeet,Jon Skeet,英国,,7015,103
+V1nni00,Vinay Kumar,印度,,7001,0
+crnacura,Manoela Ilic,葡萄牙,,6981,109
+dalindev,Dalin Huang,加拿大,,6979,37
+oldratlee,李鼎,中国,,6976,63
+Rafaelmdcarneiro,Rafael Carneiro,巴西,,6958,257
+mattdesl,Matt DesLauriers,英国,,6950,652
+dai-shi,Daishi Kato,日本,,6949,154
+simonw,Simon Willison,加拿大,,6947,840
+hehonghui,Mr.Simple,中国,,6944,291
+mustafamuratcoskun,Mustafa Murat Coşkun,土耳其,,6928,34
+omariosouto,Mario Souto,巴西,,6926,369
+tiann,weishu,中国,,6912,128
+mxstbr,Max Stoiber,加拿大,,6898,327
+JCSIVO,JCSIVO,西班牙,,6897,29
+jeffheaton,Jeff Heaton,美国,,6894,61
+phith0n,Owen Gong,新加坡,,6875,89
+vxunderground,,这不是一个国家,,6867,4
+byt3bl33d3r,Marcello,这不是一个国家,,6823,86
+xufei,xufei,中国,,6809,41
+steveklabnik,Steve Klabnik,美国,,6806,876
+appleboy,Bo-Yi Wu,中国,,6803,593
+amusi,Amusi,中国,,6779,255
+GrahamCampbell,Graham Campbell,英国,,6772,86
+shuding,Shu Ding,德国,,6764,176
+junyanz,Jun-Yan Zhu,美国,,6744,64
+nat,Nat Friedman,美国,,6741,20
+jasineri,Nerijus Jasinskas,德国,,6735,14
+swyxio,swyx.io,美国,,6720,722
+android10,Fernando Cejas,德国,,6715,82
+jdah,jdh,丹麦,,6705,19
+cornflourblue,Jason Watmore,澳大利亚,,6701,188
+sharkdp,David Peter,德国,,6684,117
+Jarred-Sumner,Jarred Sumner,加拿大,,6680,259
+bigtreetech,BIGTREETECH,中国,,6667,139
+ethanflower1903,Ethan Flower-01100101 01110100 01101000 01100001 01101110,美国,,6659,323
+loveBabbar,love babbar,印度,,6653,14
+cheshire137,Sarah Vessels,美国,,6652,144
+Nakshatra05,Nakshatra Goel,印度,,6645,30
+lemire,Daniel Lemire,加拿大,,6624,364
+machadop1407,Pedro Henrique Machado,加拿大,,6591,103
+stebsnusch,Stephany Nusch,加拿大,,6576,19
+graydon,Graydon Hoare,加拿大,,6576,595
+notwaldorf,Monica Dinculescu,美国,,6571,90
+0vm,Ak,澳大利亚,,6566,10
+davecheney,Dave Cheney,澳大利亚,,6557,178
+skywind3000,Linwei,中国,,6554,152
+rwightman,Ross Wightman,加拿大,,6551,78
+barryvdh,Barry vd. Heuvel,荷兰,,6547,314
+rodrigobranas,Rodrigo Branas,巴西,,6541,274
+marijnh,Marijn Haverbeke,德国,,6526,73
+jojoldu,DongUk Lee,韩国,,6514,227
+ericelliott,Eric Elliott,这不是一个国家,,6510,152
+tekkub,Tekkub,这不是一个国家。,,6491,22
+emmabostian,Emma Bostian,瑞典,,6475,69
+mxmnk,Jerzy,德国,,6465,11
+folke,Folke Lemaitre,比利时,,6455,126
+rstacruz,Rico Sta. Cruz,澳大利亚,,6435,601
+rhiever,Randy Olson,澳大利亚,,6406,90
+TheLarkInn,Sean Larkin,澳大利亚,,6404,283
+learnwithsumit,Learn with Sumit,孟加拉国,,6398,45
+holman,Zach Holman,美国,,6382,68
+joshwcomeau,Joshua Comeau,加拿大,,6378,234
+iuricode,Iuri Silva,巴西,,6376,9
+swankjesse,Jesse Wilson,加拿大,,6365,40
+bagder,Daniel Stenberg,瑞典,,6345,58
+campusx-official,CampusX,印度,,6343,188
+isyuricunha,Yuri,巴西,,6340,67
+jph00,Jeremy Howard,澳大利亚,,6337,87
+otaviossousa,Otavio Sousa,巴西,,6305,26
+TommyZihao,Tommy in Tongji,中国,,6298,129
+coderwhy,,中国,,6294,33
+ankane,Andrew Kane,加拿大,,6294,384
+emilk,Emil Ernerfeldt,瑞典,,6268,77
+ahmadawais,Ahmad Awais ⌘,美国,,6242,777
+nikic,Nikita Popov,德国,,6236,132
+nicklockwood,Nick Lockwood,英国,,6233,97
+seniorvuejsdeveloper,Senior Vue.js Developer,土耳其,,6212,7
+TooTallNate,Nathan Rajlich,加拿大,,6209,419
+giswqs,Qiusheng Wu,美国,,6191,317
+prakhar1989,Prakhar Srivastav,加拿大,,6166,182
+gaoxiang12,Xiang Gao,中国,,6155,51
+mafintosh,Mathias Buus,瑞士,,6105,1130
+Fernanda-Kipper,Fernanda Kipper,巴西,,6055,79
+mstraughan86,Michael Straughan,美国,,6054,28
+jxnblk,Brent Jackson,美国,,6024,289
+petehunt,Pete Hunt,加拿大,,6017,206
+orta,Orta Therox,英国 / 美国 / 爱尔兰 / 巴西,,6017,1036
+staltz,André Staltz,芬兰,,5967,439
+richhickey,Rich Hickey,美国,,5965,13
+jbogard,Jimmy Bogard,美国,,5945,141
+Grafikart,Jonathan,法国,,5943,71
+rui314,Rui Ueyama,日本,,5942,45
+vivekweb2013,vivekweb2013,印度,,5938,27
+jasontaylordev,Jason Taylor,澳大利亚,,5926,47
+desandro,David DeSandro,美国（弗吉尼亚州）,,5903,70
+posva,Eduardo San Martin Morote,法国,,5903,359
+sadikturan,Sadık Turan,土耳其,,5896,24
+guolindev,Lin Guo,中国,,5876,17
+hasherezade,hasherezade,波兰,,5875,108
+chenglou,Cheng Lou,美国,,5867,208
+jgthms,Jeremy Thomas,英国,,5865,96
+liuhuanyong,liuhuanyong,中国,,5863,73
+fuzhengwei,小傅哥,中国,,5860,196
+hussien89aa,Hussein Alrubaye,美国,,5822,65
+qiwsir,老齐,中国,,5810,310
+ashishps1,Ashish Pratap Singh,这不是一个国家,,5804,41
+ZhangMYihua,Yihua Zhang,加拿大,,5802,148
+stephencelis,Stephen Celis,美国,,5782,154
+mourner,Volodymyr Agafonkin,乌克兰,,5755,119
+hackingthemarkets,Part Time Larry,加拿大,,5744,78
+ornicar,Thibault Duplessis,法国,,5739,453
+williamfiset,William Fiset,美国,,5712,20
+markerikson,Mark Erikson,美国,,5710,97
+mpj,Mattias Petter Johansson,瑞典,,5710,147
+anisul-Islam,Anisul Islam,芬兰,,5704,160
+poteto,lauren,美国,,5700,96
+planetoftheweb,Ray Villalobos,美国（佛罗里达州）,,5684,280
+KeithGalli,Keith Galli,摩洛哥,,5680,54
+Magicianred,Simone Paolucci,意大利,,5668,1728
+PySimpleGUI,PySimpleGUI,美国,,5642,17
+bizz84,Andrea Bizzotto,英国,,5636,127
+yihong0618,yihong,中国,,5627,109
+microsoftopensource,Microsoft Open Source,澳大利亚,,5624,54
+xuxueli,许雪里,中国,,5611,12
+crossoverJie,crossoverJie,中国,,5603,138
+JubayerRiyad,Jubayer Riyad,孟加拉国,,5594,11
+jherr,Jack Herrington,美国,,5592,406
+moxie0,Moxie Marlinspike,美国,,5586,22
+Neo23x0,Florian Roth,德国,,5560,147
+mikepenz,Mike Penz,奥地利,,5557,101
+hrydgard,Henrik Rydgård,瑞典,,5551,64
+MichalPaszkiewicz,Michal J A Paszkiewicz,英国,,5531,72
+KrauseFx,Felix Krause,奥地利,,5511,169
+eliben,Eli Bendersky,美国,,5511,78
+avelino,Avelino,巴西,,5508,237
+fenixsoft,IcyFenix,中国,,5507,19
+greenrobot,Markus Junginger,德国,,5506,29
+timneutkens,Tim Neutkens,荷兰,,5503,278
+yanhaijing,颜海镜,中国,,5502,105
+sobolevn,,德国,,5487,617
+fogleman,Michael Fogleman,美国,,5477,144
+himself65,Alex Yang,加拿大,,5476,353
+falvojr,Venilton FalvoJr,巴西,,5470,100
+sebastianruder,Sebastian Ruder,德国,,5466,45
+nfultz,Neal Fultz,加拿大,,5465,219
+CelaDaniel,Daniel Cela,阿尔巴尼亚,,5459,114
+joschan21,Joscha Neske,德国,,5437,40
+afollestad,Aidan Follestad,美国,,5426,34
+LuNiZz,Can Deger,丹麦,,5416,34
+jennybc,Jennifer (Jenny) Bryan,加拿大,,5415,287
+tw93,Tw93,中国,,5408,30
+Ebazhanov,Evgenii Bazhanov,德国,,5408,128
+domenic,Domenic Denicola,日本,,5405,311
+mattpocock,Matt Pocock,英国,,5404,213
+jdalton,John-David Dalton,这不是一个国家,,5398,31
+BaseMax,Max Base,这不是一个国家,,5388,742
+antoniolg,Antonio Leiva,西班牙,,5385,81
+ept,Martin Kleppmann,英国,,5377,114
+jinzhu,Jinzhu,中国,,5375,111
+U7P4L-IN,U7P4L x C0D3R,美国,,5363,75
+mahseema,Mahsima Dastan,美国,,5361,15
+eriklindernoren,Erik Linder-Norén,瑞典,,5346,28
+lidangzzz,立党 Lidang,美国,,5333,37
+hak5darren,Darren Kitchen,加拿大,,5320,6
+vakila,Anjana Vakil,美国 | 德国,,5298,57
+mohammadhasanii,Mohammad,伊朗,,5290,35
+KevinHock,,美国,,5261,49
+steven-tey,Steven Tey,美国,,5254,105
+ValentineFernandes,Valentine Fernandes,印度,,5253,66
+MichelliBrito,Michelli Brito,巴西,,5248,31
+aymericdamien,Aymeric Damien,加拿大,,5238,12
+alsotang,alsotang,中国,,5228,214
+kenwheeler,Ken Wheeler,美国,,5226,123
+wx-chevalier,王下邀月熊,中国,,5220,157
+leebyron,Lee Byron,美国,,5211,120
+a8m,Ariel Mashraki,以色列,,5207,120
+hasinhayder,Hasin Hayder,孟加拉国,,5203,202
+NARKOZ,Nihad Abbasov,乌克兰,,5200,95
+HcySunYang,Chunyang Huo,中国,,5194,121
+dabeaz,David Beazley,美国,,5182,35
+MariyaSha,Mariya,加拿大,,5169,65
+Yidadaa,Yifei Zhang,中国,,5157,61
+creationix,Tim Caswell,美国,,5139,534
+krahets,Yudong Jin,中国,,5136,11
+driesvints,Dries Vints,比利时,,5135,25
+huangzworks,宏图书社 | 黄健宏,中国,,5120,48
+w3cj,CJ,哥伦比亚,,5117,170
+guo-yu,Guo Yu,日本,,5110,210
+julycoding,July,中国,,5109,7
+calebporzio,Caleb Porzio,美国,,5106,97
+SkalskiP,Piotr Skalski,这不是一个国家,,5104,131
+LeonidasEsteban,Leonidas Esteban,墨西哥,,5098,234
+matklad,Alex Kladov,葡萄牙,,5097,527
+freddier,Freddy Vega,加拿大,,5084,15
+tonsky,Nikita Prokopov,德国,,5082,124
+themsaid,Mohamed Said,阿联酋,,5081,67
+Akryum,Guillaume Chau,法国,,5077,232
+charliermarsh,Charlie Marsh,美国,,5075,65
+ebidel,Eric Bidelman,加拿大,,5062,91
+csswizardry,Harry Roberts,英国,,5059,56
+CharlesCreativeContent,Shawn Charles,摩洛哥,,5054,84
+alanhamlett,Alan Hamlett,奥地利,,5054,119
+riti2409,Riti Kumari,印度,,5043,69
+rusty1s,Matthias Fey,德国,,5041,70
+rustdesk,RustDesk,新加坡,,5023,40
+roboticcam,Prof Richard Xu                 徐亦达教授,中国,,5017,13
+jindongwang,Jindong Wang,中国,,5016,68
+una,Una Kravets,美国,,5002,202
+tylermcginnis,Tyler McGinnis,美国（犹他州）,,5002,160
+acheong08,Antonio Cheong,这不是一个国家,,4989,91
+Rodrigo-Cn,Rodrigo Costa,巴西,,4980,33
+ashleygwilliams,ashley williams,美国,,4979,425
+aphyr,Kyle Kingsbury,美国,,4975,125
+DanWahlin,Dan Wahlin,美国,,4959,147
+Nutlope,Hassan El Mghari,美国,,4958,77
+kulikov-dev,,葡萄牙,,4957,27
+huacnlee,Jason Lee,中国,,4955,194
+rfyiamcool,fengyun.rui,中国,,4951,328
+samuelcolvin,Samuel Colvin,英国,,4951,283
+Shougo,Shougo,日本,,4946,210
+BretFisher,Bret Fisher,美国,,4943,107
+QuincyLarson,Quincy Larson,地球,,4940,72
+s4vitar,,西班牙,,4939,13
+freekmurze,Freek Van der Herten,比利时,,4938,175
+tshemsedinov,Timur Shemsedinov,中国,,4930,234
+Anuj-Kumar-Sharma,Anuj Kumar Sharma,印度,,4927,39
+mikeal,Mikeal Rogers,美国,,4922,534
+susanli2016,Susan Li,加拿大,,4921,34
+teddysun,Teddysun,中国,,4909,8
+kevinsawicki,Kevin Sawicki,澳大利亚,,4907,224
+wepe,wepon,中国,,4900,28
+mmumshad,Mumshad Mannambeth,新加坡,,4895,74
+JeffreyZhao,Jeffrey Zhao,美国,,4892,37
+alexellis,Alex Ellis,英国,,4892,494
+zpao,Paul O’Shannessy,澳大利亚,,4890,166
+hellokaton,見える,中国,,4877,96
+hardmaru,hardmaru,日本,,4871,81
+Lissy93,Alicia Sykes,英国,,4865,123
+qpeckin,,德国,,4862,4
+AlexeyAB,Aleksei Bochkovskii,德国,,4856,131
+xopaz,FOLLOW4FOLLOW,俄罗斯,,4854,3
+chai2010,chai2010,中国,,4852,294
+timbl,Tim Berners-Lee,美国,,4850,34
+ming1016,戴铭,中国,,4849,21
+luxplanjay,Alexander Repeta,乌克兰,,4844,113
+antonbabenko,Anton Babenko,挪威,,4834,36
+atian25,TZ | 天猪,中国,,4832,124
+philipwalton,Philip Walton,加拿大,,4831,87
+atinux,Sébastien Chopin,法国,,4821,362
+gorhill,Raymond Hill,加拿大,,4817,26
+yegor256,Yegor Bugayenko,中国,,4815,204
+Dreamacro,Dreamacro,中国,,4814,25
+RameshMF,Ramesh Fadatare,印度,,4813,249
+geeeeeeeeek,Zhongyi Tong,美国（旧金山湾区）,,4810,58
+anvaka,Andrei Kashcha,美国,,4798,320
+bahmutov,Gleb Bahmutov,摩洛哥,,4796,1270
+bevacqua,Nicolás Bevacqua,阿根廷,,4796,296
+mislav,Mislav Marohnić,荷兰,,4791,225
+asweigart,Al Sweigart,美国,,4790,254
+dirambora,Diram,肯尼亚,,4789,33
+JohannesMilke,Johannes Milke,德国,,4785,682
+andrewjmead,Andrew Mead,美国,,4782,26
+anthdm,Anthony De Meulemeester,比利时,,4773,111
+Blankj,Blankj,中国,,4759,44
+ogrisel,Olivier Grisel,法国,,4745,236
+sahat,Sahat Yalkabov,这不是一个国家,,4741,185
+hansonwang99,CodeSheep 程序羊,中国,,4736,51
+NobleMajo,NobleMajo,德国,,4719,20
+lukeed,Luke Edwards,加拿大,,4718,363
+robbyrussell,Robby Russell,美国,,4717,71
+jgilfelt,Jeff Gilfelt,英国,,4712,34
+joelgrus,Joel Grus,美国,,4707,109
+smallnest,smallnest,中国,,4703,230
+rs,Olivier Poitrey,美国,,4694,122
+soffes,Sam Soffes,加拿大,,4693,182
+migueldeicaza,Miguel de Icaza,美国,,4692,220
+felixrieseberg,Felix Rieseberg,美国,,4687,269
+numbbbbb,Jie Liang,加拿大,,4687,78
+madeye,Max Lv,中国,,4685,46
+Hendrixer,Scott Moss,美国,,4679,182
+changkun,Changkun Ou,德国,,4667,140
+Gizachew29,Gizachew,美国,,4665,60
+championswimmer,Arnav Gupta,印度,,4664,370
+hax,HE Shi-Jun,中国,,4654,197
+AlianeAmaral,Aliane E. Amaral,巴西,,4653,26
+minimaxir,Max Woolf,美国,,4650,144
+CamDavidsonPilon,Cameron Davidson-Pilon,加拿大,,4640,103
+gakonst,Georgios Konstantopoulos,希腊,,4637,285
+bbatsov,Bozhidar Batsov,保加利亚,,4636,155
+JedWatson,Jed Watson,澳大利亚,,4625,128
+azl397985856,lucifer,中国,,4620,148
+DanielHe4rt,Daniel Reis,巴西,,4614,210
+lefticus,Jason Turner,哥伦比亚,,4613,118
+oschina,开源中国,中国,,4612,25
+barretlee,Barret李靖,中国,,4605,87
+hakanyalcinkaya,Hakan Yalcinkaya,土耳其,,4604,14
+TheOfficialFloW,Andy Nguyen,瑞士,,4601,47
+EvanBacon,Evan Bacon,美国,,4599,327
+milsaware,milsaware,英国,,4594,20
+krzysztofzablocki,Krzysztof Zabłocki,波兰,,4591,50
+acantril,Adrian Cantrill,澳大利亚,,4589,20
+JordanSchuetz,Jordan Schuetz,美国,,4585,29
+jesseduffield,Jesse Duffield,澳大利亚,,4582,63
+arpitbbhayani,Arpit Bhayani,印度,,4571,189
+marcan,Hector Martin,日本,,4571,90
+YunYouJun,云游君,中国,,4569,228
+insidegui,Guilherme Rambo,巴西,,4568,222
+pissang,Yi Shen,中国,,4567,113
+Seldaek,Jordi Boggiano,瑞士,,4564,273
+Ignitetechnologies,Hacking Articles ,印度,,4562,25
+somekindofwallflower,Wallflower,意大利,,4560,46
+Brooooooklyn,LongYinan,新加坡,,4560,292
+lenve,江南一点雨,中国,,4559,90
+steipete,Peter Steinberger,奥地利,,4556,79
+coryhouse,Cory House,美国,,4554,239
+kdn251,Kevin Naughton Jr.,美国,,4548,23
+thedaviddias,David Dias,加拿大,,4548,96
+goldbergyoni,Yoni Goldberg,以色列,,4543,35
+WillKoehrsen,Will Koehrsen,美国（华盛顿特区）,,4541,94
+zkat,Kat Marchán,美国,,4540,223
+LondheShubham153,Shubham Londhe,印度,,4512,146
+ValdikSS,ValdikSS,俄罗斯,,4504,52
+sonnysangha,Sonny Sangha,英国,,4502,39

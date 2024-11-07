@@ -58,7 +58,11 @@ pip install -r requirements.txt
 
 ### 架构设计
 
-![image-20241107162421298](./docs/picture/%E6%A1%86%E6%9E%B6%E5%9B%BE.png)
+![框架设计](./docs/picture/%E6%A1%86%E6%9E%B6%E5%9B%BE.png)
+
+### 模块设计
+
+![模块设计](./docs/picture/%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1.png)
 
 ### 联系作者
 
