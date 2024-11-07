@@ -1,4 +1,7 @@
 .idea/
 .venv/
 .text/
+__pycache__/
 config.py
+*.py[cod]
+.data/
