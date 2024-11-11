@@ -14,7 +14,7 @@
       <v-btn v-for="icon in icons" :key="icon.id" :href="icon.src" :icon="icon.icon" class="mx-4" location="center"
              variant="text"></v-btn>
       <div class="pt-0 text-center">
-        这是参加1024创造节校园编程马拉松的一份编程作品，七天牛让这一切都很有趣，为热爱编程的开发者们进行一次有趣的数据分析。
+        这是参加1024创造节校园编程马拉松的一份编程作品，七牛云让这一切都很有趣，为热爱编程的开发者们进行一次有趣的数据分析。
       </div>
       <v-divider></v-divider>
       <div class="text-center">
