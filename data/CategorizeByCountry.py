@@ -3,7 +3,7 @@ import os
 import re
 
 import pandas as pd
-
+# 用来对 cvs/github_rank.csv 中的大量原始数据进行分类，按照国家进行分类
 
 github_rank_df = pd.read_csv('cvs/github_rank.csv')
 processed_github_rank_df = pd.read_csv('cvs/processed_github_rank.csv')

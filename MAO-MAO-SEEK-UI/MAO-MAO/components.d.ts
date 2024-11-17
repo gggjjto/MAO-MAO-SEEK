@@ -7,6 +7,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Error: typeof import('./src/components/Error.vue')['default']
     FooterBar: typeof import('./src/components/FooterBar.vue')['default']
     HeadBar: typeof import('./src/components/HeadBar.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
@@ -16,5 +17,6 @@ declare module 'vue' {
     Rank: typeof import('./src/components/rank/Rank.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Search: typeof import('./src/components/Search.vue')['default']
   }
 }

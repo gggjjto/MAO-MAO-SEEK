@@ -126,17 +126,18 @@
                   </v-col>
                 </v-row>
                 <v-spacer class="my-6"></v-spacer>
+
+                <v-main class="d-flex justify-center align-center">
+                  <img :src="ghchartsrc"/>
+                </v-main>
                 <!-- 个人简介 -->
                 <v-main class="d-flex justify-center align-center">
-                  <v-card color="grey-lighten-5" elevation="1" height="5vw" hover width="21vw">
+                  <v-card color="grey-lighten-5" elevation="1" height="10vw" hover width="40vw">
                     <v-card-title>总结</v-card-title>
                     <v-card-text>{{ user?.bio || '代码是艺术和解决问题的途径' }}</v-card-text>
                   </v-card>
                 </v-main>
                 <v-spacer class="my-6"></v-spacer>
-                <v-main class="d-flex justify-center align-center">
-                  <img :src="ghchartsrc"/>
-                </v-main>
               </v-card-text>
             </v-card>
           </v-main>

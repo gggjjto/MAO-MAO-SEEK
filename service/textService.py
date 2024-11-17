@@ -260,19 +260,3 @@ class GitHubService:
                 'followers_count': user_data['followers']['totalCount']
             }
         return {}
-
-    def get_score_stats(self, username):
-        score = get_score(username)
-        return score
-
-
-def get_rate_limit(token):
-    g = Github(token)
-    now = time.time()
-    ratelimit = g.rate_limiting
-    remaining = ratelimit[0]
-    reset_time = g.rate_limiting_resettime
-    minutes_left = (reset_time - now) / 60
-    if remaining == 0:
-        print(minutes_left)
-    return remaining

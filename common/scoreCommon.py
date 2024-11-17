@@ -117,10 +117,11 @@ def get_contributors(repo_url, login):
 def get_score(login):
     """
     对开发者的技术能力进行评分
-    :param username: 用户名
+    :param login: 用户名
     :return:
     """
-    token = session['token']
+    # token = session['token']
+    token = config.GITHUB_ACCESS_TOKEN
     gql = GraphQLConfig(token)
     # 1.获取开发者的 followers
     try:

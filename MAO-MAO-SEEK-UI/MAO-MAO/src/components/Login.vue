@@ -70,23 +70,28 @@
                   登录
                 </v-btn>
               </v-card-actions>
+
             </v-card>
           </template>
         </v-dialog>
       </v-btn>
     </v-btn-group>
   </div>
+  <Error v-model="isErrorVisible" :error-message="errorMessage" />
 </template>
 
 <script lang="ts" setup>
 import {onMounted, ref} from 'vue'
 import {GitHubAPI} from '@/public/public'
 import {login} from '@/services/authService'
+import Error from "@/components/Error.vue";
 
 const isLoggedIn = ref(false) // 登录状态
 const avatarUrl = ref('') // 用户头像 URL
 const accessToken = ref('') // GitHub 令牌
 const dialog = ref(false)
+const isErrorVisible = ref(false); // 控制错误框的可见性
+const errorMessage = ref(""); // 错误消息内容
 
 // 登录处理函数
 async function handleLogin() {
@@ -97,10 +102,16 @@ async function handleLogin() {
     avatarUrl.value = user.avatar_url
     localStorage.setItem('user', JSON.stringify(user))
     localStorage.setItem('isLoggedIn', JSON.stringify(isLoggedIn.value))
-
   } else {
-    console.error('登录失败，无法获取用户信息');
-    isLoggedIn.value = false; // 登录失败
+    console.error('登录失败，无法获取用户信息')
+    isLoggedIn.value = false // 登录失败
+    errorMessage.value = ''
+    setTimeout(()=>{
+      isErrorVisible.value = true
+      errorMessage.value = "登录失败，发生意外错误，请稍后再试！"
+    }, 10)
+
+    // alert('登录失败，发生意外错误，请稍后再试！');
   }
 }
 
