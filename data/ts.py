@@ -1,4 +1,3 @@
-
 import os
 
 import pandas as pd
@@ -8,19 +7,15 @@ country_str = "美国"
 # 导出ts文件
 github_users_china_df = pd.read_csv('./processed_github_rank1.csv')
 
-
 if 'location_original' in github_users_china_df.columns:
     github_users_china_df.rename(columns={'location_original': 'location'}, inplace=True)
-
 
 required_columns = ['login', 'name', 'location', 'followers', 'repositories', 'score']
 for col in required_columns:
     if col not in github_users_china_df.columns:
         github_users_china_df[col] = 0
 
-
 sorted_china_df = github_users_china_df.sort_values(by='score', ascending=False).head(100)
-
 
 headers = """
 interface Header {

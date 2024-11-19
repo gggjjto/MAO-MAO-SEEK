@@ -204,7 +204,7 @@ async function onClick() {
       following: data.following,
       repos: data.public_repos,
       bio: data.bio,
-      score: Math.round(data.score * 100)/100 ,
+      score: Math.round(data.score * 100) / 100,
       country: data.country,
       reliability: data.reliability
     }

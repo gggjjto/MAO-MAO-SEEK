@@ -1,8 +1,8 @@
 import re
 
 import config
-from common.Tool.GPTToolCommon import gpt_send, set_message
 from common.GraphQLConfigCommon import GraphQLConfig
+from common.Tool.GPTToolCommon import gpt_send, set_message
 from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
 from common.Tool.RedisCommon import redis_tool
 
@@ -56,8 +56,3 @@ def guess_nation(username):
         return country, confidence
     except:
         return 'N/A', 0
-
-
-if __name__ == '__main__':
-    country, confidence = guess_nation('lmxue')
-    print(country, confidence)

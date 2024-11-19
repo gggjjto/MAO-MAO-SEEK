@@ -1,20 +1,17 @@
 import requests
 
 from common.GQL.GQLQueryGitHub import associated_users_locations_query
-from common.Tool.ProxyPoolCommon import proxy_pool
 
 
 class GraphQLConfig:
-    def __init__(self, access_token):
+    def __init__(self, token):
         self.api_url = "https://api.github.com/graphql"
-        self.headers = {'Authorization': f'Bearer {access_token}'}
+        self.headers = {'Authorization': f'Bearer {token}'}
 
     def execute_query(self, query, variables=None):
         # 发送grapql api请求
         # time.sleep(10)  # 暂停一下
-        proxy = proxy_pool()
-        response = requests.post(self.api_url, json={'query': query, 'variables': variables}, proxies={"http": proxy},
-                                 headers=self.headers)
+        response = requests.post(self.api_url, json={'query': query, 'variables': variables}, headers=self.headers)
 
         if response.status_code == 200:
             return response.json()

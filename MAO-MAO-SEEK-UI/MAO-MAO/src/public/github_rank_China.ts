@@ -610,7 +610,7 @@ export const desserts = ref<Dessert[]>([
     score: 15875.0
   },
   {login: 'coderwhy', name: 'nan', location: 'guangzhou', followers: 6294, repositories: 33, score: 15472.520000000002},
-].map(dessert =>({
+].map(dessert => ({
   ...dessert,
   score: parseFloat(dessert.score.toFixed(2))
 })));

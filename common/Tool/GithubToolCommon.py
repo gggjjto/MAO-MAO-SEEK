@@ -1,12 +1,9 @@
-import time
-
 from github import Github
 
 from common.FromCountryCommon import guess_nation, extract_country_one
 from common.GQL.GQLQueryGitHub import *
 from common.GraphQLConfigCommon import GraphQLConfig
 from common.SendMessageCommon import get_repository_languages
-from common.scoreCommon import get_score
 
 
 class GitHubService:

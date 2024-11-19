@@ -1,14 +1,10 @@
 import requests
 
 import config
-from common.Tool.ProxyPoolCommon import proxy_pool
 
 
 def gpt_send(message):
     # 查询阿里云百炼模型
-    proxy = proxy_pool()
-    # time.sleep(6)
-    # 创建一个带代理的请求会话
     # 设置 API Key 和请求 URL
     url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 
@@ -34,7 +30,7 @@ def gpt_send(message):
     }
 
     # 发送 POST 请求
-    response = requests.post(url, headers=headers, json=data, proxies={"http": proxy})
+    response = requests.post(url, headers=headers, json=data)
 
     # 检查请求的结果
     if response.status_code == 200:

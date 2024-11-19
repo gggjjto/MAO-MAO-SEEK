@@ -16,8 +16,8 @@
   </v-slide-y-transition>
 </template>
 
-<script setup lang="ts">
-import { ref, watch, defineProps, defineEmits } from "vue";
+<script lang="ts" setup>
+import {defineEmits, defineProps, ref, watch} from "vue";
 
 // Props: 接收外部传递的错误消息和可见状态
 const props = defineProps({

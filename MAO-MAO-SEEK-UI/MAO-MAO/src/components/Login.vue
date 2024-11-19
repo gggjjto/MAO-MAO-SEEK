@@ -77,7 +77,7 @@
       </v-btn>
     </v-btn-group>
   </div>
-  <Error v-model="isErrorVisible" :error-message="errorMessage" />
+  <Error v-model="isErrorVisible" :error-message="errorMessage"/>
 </template>
 
 <script lang="ts" setup>
@@ -107,7 +107,7 @@ async function handleLogin() {
     console.error('登录失败，无法获取用户信息')
     isLoggedIn.value = false // 登录失败
     errorMessage.value = ''
-    setTimeout(()=>{
+    setTimeout(() => {
       isErrorVisible.value = true
       errorMessage.value = "登录失败，发生意外错误，请稍后再试！"
     }, 10)

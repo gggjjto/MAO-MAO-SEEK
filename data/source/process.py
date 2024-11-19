@@ -1,7 +1,7 @@
 import config
-from data.source.DataHandlerCommon import DataHandler
 from common.GQL.GQLQueryRank import process_rank_query
 from common.GraphQLConfigCommon import GraphQLConfig
+from data.source.DataHandlerCommon import DataHandler
 
 
 class Rank:

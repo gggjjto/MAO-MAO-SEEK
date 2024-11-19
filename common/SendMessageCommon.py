@@ -1,8 +1,6 @@
 import requests
 from flask import session
 
-from common.Tool.ProxyPoolCommon import proxy_pool
-
 
 def get_repository_languages(owner, repo_name):
     # 查询仓库使用的语言
@@ -22,8 +20,7 @@ def get_repository_languages(owner, repo_name):
 def send_response(url, headers, params):
     # 一个发送请求的函数
     # time.sleep(5)
-    proxy = proxy_pool()
-    response = requests.get(url, headers=headers, proxies={"http": proxy}, params=params, verify=True)
+    response = requests.get(url, headers=headers, params=params, verify=True)
     if response.status_code == 200:
         return response.json()
     else:

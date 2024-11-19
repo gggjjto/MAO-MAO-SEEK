@@ -7,6 +7,7 @@ df = pd.read_csv('country/github_users_美国.csv')
 
 redis = RedisTool(db=1)
 
+
 # 对文件进行分数统计
 
 def get_score_1(login):

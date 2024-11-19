@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-import config
 from common.Tool.GPTToolCommon import send_assess
 
 
@@ -76,6 +75,7 @@ def fetch_github_pages(url):
 
 
 def assess(username, token):
+    # 获取最后的评价
     try:
         blog_url, status_code = fetch_user_blog(username, token)
         readme_data, readme_status_code = fetch_readme_via_api(username, token)
@@ -91,9 +91,3 @@ def assess(username, token):
         return None
     except:
         return None
-
-
-
-if __name__ == '__main__':
-    s = assess('lmxue', config.GITHUB_ACCESS_TOKEN)
-    print(s)
