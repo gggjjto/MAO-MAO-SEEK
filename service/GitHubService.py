@@ -3,8 +3,8 @@ from flask import session
 
 import config
 from common.AssessCommon import assess
+from common.Tool.GithubToolCommon import GitHubService
 from common.scoreCommon import get_user_score
-from service.textService import GitHubService
 
 GITHUB_USER_API_URL = "https://api.github.com/user"
 

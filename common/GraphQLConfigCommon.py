@@ -1,9 +1,7 @@
-import time
-
 import requests
 
 from common.GQL.GQLQueryGitHub import associated_users_locations_query
-from common.ProxyPoolCommon import proxy_pool
+from common.Tool.ProxyPoolCommon import proxy_pool
 
 
 class GraphQLConfig:
@@ -33,7 +31,7 @@ class GraphQLConfig:
         query = associated_users_locations_query
         variables = {"username": username}
         data = self.execute_query(query, variables)
-        # print(data)
+
         if data and 'data' in data and 'user' in data['data']:
             locations = {
                 'followers': [node['location'] for node in data['data']['user']['followers']['nodes'] if

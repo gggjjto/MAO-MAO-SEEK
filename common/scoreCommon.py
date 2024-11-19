@@ -1,9 +1,7 @@
-from flask import session
-
 import config
 from common.GraphQLConfigCommon import GraphQLConfig
-from common.MultiThreadHelperCommon import MultiThreadHelper
-from common.RedisCommon import RedisTool
+from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
+from common.Tool.RedisCommon import RedisTool
 from common.SendMessageCommon import send_response
 
 query_followers = """
@@ -114,6 +112,31 @@ def get_contributors(repo_url, login):
     return x
 
 
+def get_sum(repo_url, stars, login):
+    index = get_contributors(repo_url, login)
+    if index == -1:
+        return 0
+    if (81 - index) >= 50:
+        num = 81 - index
+    else:
+        num = 30
+    num = num / 100
+    o = stars * num
+    return o
+
+
+redis = RedisTool(db=1)
+
+
+def get_user_score(login):
+    score = redis.get_value(login)
+    if score is None:
+        score = get_score(login)
+        redis.set_value(login, score)
+    print(f'login:{login} - score = {score}')
+    return score
+
+
 def get_score(login):
     """
     对开发者的技术能力进行评分
@@ -150,31 +173,6 @@ def get_score(login):
     multi_thread_helper.shutdown()
     score = followers_count + sum
     print(f"开发者: {login} 最后的得分是：{score}")
-    return score
-
-
-def get_sum(repo_url, stars, login):
-    index = get_contributors(repo_url, login)
-    if index == -1:
-        return 0
-    if (81 - index) >= 50:
-        num = 81 - index
-    else:
-        num = 30
-    num = num / 100
-    o = stars * num
-    return o
-
-
-redis = RedisTool(db=1)
-
-
-def get_user_score(login):
-    score = redis.get_value(login)
-    if score is None:
-        score = get_score(login)
-        redis.set_value(login, score)
-    print(f'login:{login} - score = {score}')
     return score
 
 

@@ -1,8 +1,6 @@
 import pandas as pd
 
-
-import config
-from common.RedisCommon import RedisTool
+from common.Tool.RedisCommon import RedisTool
 from common.scoreCommon import get_score
 
 df = pd.read_csv('country/github_users_美国.csv')

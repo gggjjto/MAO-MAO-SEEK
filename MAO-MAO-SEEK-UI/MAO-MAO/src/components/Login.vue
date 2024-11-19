@@ -85,6 +85,7 @@ import {onMounted, ref} from 'vue'
 import {GitHubAPI} from '@/public/public'
 import {login} from '@/services/authService'
 import Error from "@/components/Error.vue";
+import router from "@/router";
 
 const isLoggedIn = ref(false) // 登录状态
 const avatarUrl = ref('') // 用户头像 URL
@@ -137,6 +138,7 @@ function onLogout() {
   isLoggedIn.value = false
   localStorage.removeItem('user');
   localStorage.removeItem('isLoggedIn')
+  router.push('/');
 }
 
 

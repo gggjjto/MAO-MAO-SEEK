@@ -11,7 +11,7 @@ export const tabs = ref<Tab[]>([
   {id: 2, name: '查询', href: '/search'},
   {id: 3, name: '排名', href: '/rank'},
 ]);
-export const src = ref('https://haowallpaper.com/link/common/file/previewFileImg/15743329476579648')
+export const src = ref('../public/home.png')
 
 interface icon {
   id: number;

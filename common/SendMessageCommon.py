@@ -1,10 +1,7 @@
-import time
-
 import requests
 from flask import session
 
-import config
-from common.ProxyPoolCommon import proxy_pool
+from common.Tool.ProxyPoolCommon import proxy_pool
 
 
 def get_repository_languages(owner, repo_name):

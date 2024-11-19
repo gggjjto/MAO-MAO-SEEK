@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import config
-from common.GPTToolCommon import gpt_send, send_assess
+from common.Tool.GPTToolCommon import send_assess
 
 
 def fetch_user_blog(username, token):

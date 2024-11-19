@@ -1,19 +1,18 @@
 import re
-from collections import Counter
 
 import config
-from common.GPTToolCommon import gpt_send, set_message
+from common.Tool.GPTToolCommon import gpt_send, set_message
 from common.GraphQLConfigCommon import GraphQLConfig
-from common.MultiThreadHelperCommon import MultiThreadHelper
-from common.RedisCommon import redis_tool, RedisTool
+from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
+from common.Tool.RedisCommon import redis_tool
 
 
 def get_associated_users(username):
-    # 查询获取用户的关注者和关注的人的位置信息，并做缓存
+    # 查询获取用户的关注者和关注的人的位置信息
     graphql_client = GraphQLConfig(config.GITHUB_ACCESS_TOKEN)
     # 获取用户的关注者和关注的人的位置信息
     locations = graphql_client.get_associated_users_locations(username)
-    # r.set_json(username, locations)
+
     return locations
 
 
@@ -34,7 +33,7 @@ def extract_country_one(o):
 
 def extract_country(location):
     # 根据地名查找国家
-    multi_thread_helper = MultiThreadHelper(max_workers=20)
+    multi_thread_helper = MultiThreadHelper()
     futures = []
     for o in location:
         # 使用多线程

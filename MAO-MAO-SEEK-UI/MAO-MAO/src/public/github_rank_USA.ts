@@ -1,5 +1,6 @@
 import {ref} from "vue";
 
+
 interface Header {
   key: string
   title: string
@@ -132,4 +133,7 @@ export const USA_desserts = ref<Dessert[]>([
   { login: 'anvaka', name: 'Andrei Kashcha', location: 'Seattle ', followers: 4798, repositories: 320, score: 23615.76000000001 },
   { login: 'amueller', name: 'Andreas Mueller', location: 'Los Gatos', followers: 10731, repositories: 217, score: 23438.550000000017 },
   { login: 'jamesmontemagno', name: 'James Montemagno', location: 'Pacific Northwest', followers: 8075, repositories: 405, score: 23380.389999999985 },
-]);
+].map(dessert => ({
+  ...dessert,
+  score: parseFloat(dessert.score.toFixed(2))
+})));
