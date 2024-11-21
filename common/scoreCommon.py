@@ -84,34 +84,63 @@ def get_repos(gql, login):
     return all_repositories
 
 
-def get_contributors(repo_url, login):
-    # 查询用户对仓库的贡献
-    owner, repo = repo_url.split("/")[-2:]
-    url = f"https://api.github.com/repos/{owner}/{repo}/contributors"  # GitHub API 端点
-    headers = {
-        "Authorization": f"Bearer {config.GITHUB_ACCESS_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
-    }
-    params = {
-        "per_page": 50,
-        "page": 1
-    }
-    x = 80  # 不在前50名
+import requests
+
+
+def get_contributors(repo_url, login, access_token):
+    """
+    查询用户对仓库的贡献排名
+    repo_url (str): GitHub 仓库 URL
+    login (str): 用户登录名
+    access_token (str): GitHub API 访问令牌
+
+    返回:
+        int: 用户的贡献排名。如果未找到返回 80，API 限制返回 30，空数据返回 -1
+    """
     try:
-        contributors = send_response(url, headers, params)
-        if contributors == 403:
+        # 提取仓库所有者和仓库名
+        owner, repo = repo_url.rstrip('/').split("/")[-2:]
+        url = f"https://api.github.com/repos/{owner}/{repo}/contributors"
+
+        headers = {
+            "Authorization": f"Bearer {access_token}",
+            "Accept": "application/vnd.github.v3+json"
+        }
+        params = {
+            "per_page": 50,
+            "page": 1
+        }
+
+        # 发送 GET 请求
+        response = requests.get(url, headers=headers, params=params)
+
+        if response.status_code == 403:  # API 限制
+            print("API 访问受限，可能达到速率限制或储存库贡献者太多。")
             return 30
-        elif contributors == 204:
+        elif response.status_code == 204:  # 无内容
+            print("没有贡献者数据。")
             return -1
+        elif response.status_code != 200:  # 其他错误
+            print(f"请求失败，状态码: {response.status_code}, 错误信息: {response.text}")
+            return -1
+
+        contributors = response.json()
+
+        # 遍历贡献者列表
         for index, contributor in enumerate(contributors, start=1):
             print(f"Rank #{index}: {contributor['login']} - Contributions: {contributor['contributions']}")
             if contributor['login'] == login:
                 return index
-    except Exception as e:
-        print(f"在get_contributors函数中查询开发者contributors失败，错误是: {e}")
-        return -1
 
-    return x
+        # 未找到用户
+        return 80
+
+    except requests.exceptions.RequestException as req_err:
+        print(f"HTTP 请求失败: {req_err}")
+        return -1
+    except Exception as e:
+        print(f"在 get_contributors 函数中发生未知错误: {e}")
+        return -1
 
 
 def get_sum(repo_url, stars, login):

@@ -38,8 +38,8 @@ def fetch_readme_via_api(username, token):
 
     if response.status_code == 200:
         readme_content = response.text
-        return readme_content, 200
         print("README.md 已成功通过 GitHub API 抓取并保存为 README_API.md")
+        return readme_content, 200
     else:
         print(f"无法获取 README.md，状态码：{response.status_code}")
         return None, 500
