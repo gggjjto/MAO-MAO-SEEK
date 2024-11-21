@@ -9,8 +9,7 @@ class GraphQLConfig:
         self.headers = {'Authorization': f'Bearer {token}'}
 
     def execute_query(self, query, variables=None):
-        # 发送grapql api请求
-        # time.sleep(10)  # 暂停一下
+        # 发送graphql api请求
         response = requests.post(self.api_url, json={'query': query, 'variables': variables}, headers=self.headers)
 
         if response.status_code == 200:

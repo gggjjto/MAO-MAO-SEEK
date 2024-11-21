@@ -1,8 +1,10 @@
 from github import Github
 
+import config
 from common.FromCountryCommon import guess_nation, extract_country_one
 from common.GQL.GQLQueryGitHub import *
-from common.GraphQLConfigCommon import GraphQLConfig
+from common.GQL.GQLQueryPinned import gql_pinned_repos
+from common.Tool.GraphQLConfigCommon import GraphQLConfig
 from common.SendMessageCommon import get_repository_languages
 
 
@@ -14,6 +16,7 @@ class GitHubService:
         """
         self.client = GraphQLConfig(token)
         self.user = Github(token)
+        self.token = token
 
     def get_user_info(self):
         """
@@ -59,7 +62,7 @@ class GitHubService:
         location = user.location
         reliability = 1
         if location is None:
-            max_country, reliability = guess_nation(user.login)
+            max_country, reliability = guess_nation(user.login, self.token)
         else:
             max_country = extract_country_one(location)
             max_country = max_country.decode('utf-8')
@@ -76,7 +79,7 @@ class GitHubService:
         max_country = ""
         reliability = 1
         if location is None:
-            max_country, reliability = guess_nation(user.login)
+            max_country, reliability = guess_nation(user.login, self.token)
         else:
             max_country = extract_country_one(location)
             if isinstance(max_country, bytes):
@@ -257,3 +260,23 @@ class GitHubService:
                 'followers_count': user_data['followers']['totalCount']
             }
         return {}
+
+    def fetch_pinned_repos(self, username):
+        """
+        使用 GraphQL 查询用户的 Pinned 仓库
+        """
+        g = GraphQLConfig(self.token)
+        query = gql_pinned_repos
+        data = g.github_graphql(query, username)
+        if not data:
+            print("未能获取 Pinned 仓库数据。")
+            return
+
+        pinned_repos = data.get("data", {}).get("user", {}).get("pinnedItems", {}).get("nodes", [])
+
+        return pinned_repos
+
+if __name__ == '__main__':
+    g = GitHubService(config.GITHUB_ACCESS_TOKEN)
+    data = g.fetch_pinned_repos('ruanyf')
+    print(data)

@@ -19,7 +19,6 @@ def get_repository_languages(owner, repo_name):
 
 def send_response(url, headers, params):
     # 一个发送请求的函数
-    # time.sleep(5)
     response = requests.get(url, headers=headers, params=params, verify=True)
     if response.status_code == 200:
         return response.json()

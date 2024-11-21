@@ -4,6 +4,7 @@ from flask import session
 import config
 from common.AssessCommon import assess
 from common.Tool.GithubToolCommon import GitHubService
+from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
 from common.scoreCommon import get_user_score
 
 GITHUB_USER_API_URL = "https://api.github.com/user"
@@ -58,10 +59,14 @@ def get_user_info(username, token):
         "html_url": user_info.get("html_url")
     }
     g = GitHubService(token)
-    user_data['score'] = get_user_score(username)
-    user_data['country'], reliability = g.get_location(username)
+    helper = MultiThreadHelper(max_workers=3)
+    future_score = helper.submit_task(get_user_score, username, token)
+    future_country = helper.submit_task(g.get_location, username)
+    future_bio = helper.submit_task(assess, username, token)
+    user_data['score'] = future_score.result()
+    user_data['country'], reliability = future_country.result()
     user_data['reliability'] = reliability
-    user_data['bio'] = assess(username, token)
+    user_data['bio'] = future_bio.result()
 
     # 成功时返回用户数据和状态码 200
     return user_data, 200

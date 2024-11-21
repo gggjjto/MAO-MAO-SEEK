@@ -1,15 +1,14 @@
 import re
 
-import config
-from common.GraphQLConfigCommon import GraphQLConfig
+from common.Tool.GraphQLConfigCommon import GraphQLConfig
 from common.Tool.GPTToolCommon import gpt_send, set_message
 from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
 from common.Tool.RedisCommon import redis_tool
 
 
-def get_associated_users(username):
+def get_associated_users(username, token):
     # 查询获取用户的关注者和关注的人的位置信息
-    graphql_client = GraphQLConfig(config.GITHUB_ACCESS_TOKEN)
+    graphql_client = GraphQLConfig(token=token)
     # 获取用户的关注者和关注的人的位置信息
     locations = graphql_client.get_associated_users_locations(username)
 
@@ -42,9 +41,9 @@ def extract_country(location):
     return results
 
 
-def guess_nation(username):
+def guess_nation(username, token):
     # 猜测开发者位于的国家
-    locations = get_associated_users(username)
+    locations = get_associated_users(username, token)
     all_locations = locations['followers'] + locations['following']
     try:
         data = set_message(str(all_locations))

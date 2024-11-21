@@ -1,8 +1,4 @@
-from flask import session
-
-import config
-from common.GraphQLConfigCommon import GraphQLConfig
-from common.SendMessageCommon import send_response
+from common.Tool.GraphQLConfigCommon import GraphQLConfig
 from common.Tool.MultiThreadHelperCommon import MultiThreadHelper
 from common.Tool.RedisCommon import RedisTool
 
@@ -159,23 +155,21 @@ def get_sum(repo_url, stars, login):
 redis = RedisTool(db=1)
 
 
-def get_user_score(login):
+def get_user_score(login, token):
     score = redis.get_value(login)
     if score is None:
-        score = get_score(login)
+        score = get_score(login, token)
         redis.set_value(login, score)
     print(f'login:{login} - score = {score}')
     return score
 
 
-def get_score(login):
+def get_score(login, token):
     """
     对开发者的技术能力进行评分
     :param login: 用户名
     :return:
     """
-    token = session['token']
-    # token = config.GITHUB_ACCESS_TOKEN
     gql = GraphQLConfig(token)
     # 1.获取开发者的 followers
     try:
@@ -205,9 +199,3 @@ def get_score(login):
     score = followers_count + sum
     print(f"开发者: {login} 最后的得分是：{score}")
     return score
-
-
-# 示例使用
-if __name__ == "__main__":
-    login = "torvalds"
-    score = get_score(login)
