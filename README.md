@@ -83,3 +83,9 @@ pip install -r requirements.txt
 
 - 个人邮箱：1471104705qq.com
 
+### maomaoseek 重置计划
+参加比赛时，时间短，任务重，很多功能没有实现，现在出来工作了，有时间完善一下项目，
+重置计划如下：
+      - 重构代码框架，使用Fastapi + postgreSQL + Redis。
+      - 添加Github登录的功能。
+
